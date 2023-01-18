@@ -1,4 +1,5 @@
 import './App.css';
+import Activities from './components/Activities';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -14,6 +15,8 @@ function App() {
       <Navbar />
 
       <Hero />
+
+      <Activities />
 
     </div>
 
