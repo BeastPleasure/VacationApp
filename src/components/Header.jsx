@@ -6,11 +6,14 @@ const Header = () => {
 
   return (
 
-    <div className='flex justify-between'>
+    <div className='flex justify-between items-center px-4 py-2'>
 
-        <div> 
+        <div className='flex items-center'> 
 
-            <BsChatSquareDots />
+            <BsChatSquareDots 
+                size={30}
+                className='text-[var[--primarry-dark]]'
+            />
 
             <h1> WEEKAWAY </h1>
 
