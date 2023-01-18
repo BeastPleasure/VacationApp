@@ -58,7 +58,7 @@ const Navbar = () => {
 
         {/* HAMBURGER MENU */}
 
-        <div className='z-10 sm:z-1 sm:right-100 sm:mr-30'>
+        <div className='z-10 sm:z-10 sm:relative sm:right-90'>
 
             <FaBars size={20} className='mr-4 cursor-pointer'/>
 
