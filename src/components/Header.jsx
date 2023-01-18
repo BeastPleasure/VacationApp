@@ -12,28 +12,34 @@ const Header = () => {
 
             <BsChatSquareDots 
                 size={30}
-                className='text-[var[--primarry-dark]]'
+                className='text-[var(--primary-dark)] mr-2'
             />
 
-            <h1> WEEKAWAY </h1>
+            <h1 className='text-xl font-bold text-gray-700'> WEEKAWAY </h1>
 
         </div>
 
-        <div> 
+        <div className='flex '> 
 
-            <div>
+            <div className='hidden md:flex items-center px-6'>
 
-                <AiOutlineClockCircle />
+                <AiOutlineClockCircle 
+                    size={20}
+                    className='mr-2 text-[var(--primary-dark)]'
+                />
 
-                <p> 09AM - 05PM </p>
+                <p className='text-sm text-gray-700'> 09AM - 05PM </p>
 
             </div>
 
-            <div>
+            <div className='hidden md:flex items-center px-6'>
 
-                <AiFillPhone />
+                <AiFillPhone 
+                    size={20}
+                    className='mr-2 text-[var(--primary-dark)]'
+                />
 
-                <p> 1-800-777-1234 </p>
+                <p className='text-sm text-gray-700'> 1-800-777-1234 </p>
 
             </div>
 
