@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {FaBars, FaFacebook, FaTwitter, FaInstagram, FaGooglePlus} from 'react-icons/fa';
-import {HiChartSquareBar} from 'react-icons/hi';
 
 
 const Navbar = () => {
