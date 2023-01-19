@@ -1,5 +1,6 @@
 import './App.css';
 import Activities from './components/Activities';
+import Booking from './components/Booking';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -17,6 +18,8 @@ function App() {
       <Hero />
 
       <Activities />
+
+      <Booking />
 
     </div>
 
