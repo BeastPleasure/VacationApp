@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 This project is an example of a Vacation App. It was built in VScode using 
-ReactJS, Javascript, CSS, HTML.
+ReactJS, Javascript, TailwindCSS, HTML.
 - It is mobile and web use friendly.
 - It is Frontend only.
 - It features basic functionalities.
