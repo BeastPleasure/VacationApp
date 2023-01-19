@@ -3,6 +3,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+This project is an example of a Vacation App. It was built in VScode using 
+ReactJS, Javascript, CSS, HTML.
+- It is mobile and web use friendly.
+- It is Frontend only.
+- It features basic functionalities.
+
+## Available Scripts
 
 In the project directory, you can run:
 
